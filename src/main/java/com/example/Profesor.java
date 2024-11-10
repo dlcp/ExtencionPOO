@@ -20,4 +20,9 @@ public class Profesor extends Persona {
     public String presentar() {
         return String.format("Soy el profesor %s y enseño %s.", getNombre(), materia);
     }
+
+    @Override
+    public String toString() {
+        return presentar();
+    }
 }

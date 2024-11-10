@@ -1,6 +1,6 @@
 package com.example;
 
-public class Persona {
+public abstract class Persona {
     private String nombre;
     private int edad;
 
@@ -25,7 +25,16 @@ public class Persona {
         this.edad = edad;
     }
 
-    public String presentar() {
-        return String.format("Soy %s y tengo %d años.", nombre, edad);
+    // Método abstracto
+    public abstract String presentar();
+
+    @Override
+    public String toString() {
+        return presentar();
+    }
+
+    // Método estático
+    public static void imprimirTipoPersona(Persona persona) {
+        System.out.println("El tipo de persona es: " + persona.getClass().getSimpleName());
     }
 }
