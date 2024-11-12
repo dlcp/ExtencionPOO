@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.PersonaTest" time="0.153" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.CalculadoraTest" time="1.257" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -58,7 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testEncapsulamiento" classname="com.example.PersonaTest" time="0.09"/>
-  <testcase name="testPolimorfismo" classname="com.example.PersonaTest" time="0.017"/>
-  <testcase name="testHerencia" classname="com.example.PersonaTest" time="0.027"/>
+  <testcase name="testResta" classname="com.example.CalculadoraTest" time="0.2"/>
+  <testcase name="testSuma" classname="com.example.CalculadoraTest" time="0.172"/>
+  <testcase name="testMultiplicacion" classname="com.example.CalculadoraTest" time="0.31"/>
+  <testcase name="testDivisionPorCero" classname="com.example.CalculadoraTest" time="0.213"/>
+  <testcase name="testDivision" classname="com.example.CalculadoraTest" time="0.127"/>
 </testsuite>
